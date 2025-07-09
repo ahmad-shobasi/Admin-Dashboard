@@ -7,7 +7,6 @@ import {
   useTheme,
   Snackbar,
   Alert,
-  Typography,
 } from '@mui/material';
 import { Formik } from 'formik';
 import * as yup from 'yup';
@@ -64,7 +63,7 @@ const Form = () => {
   };
 
   return (
-    <Box m="20px">
+    <Box m="20px" height="100%">
       <Header title="CREATE USER" subtitle="Create New User Profile" />
       <Box display="flex" justifyContent="center">
         <Card
