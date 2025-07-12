@@ -19,6 +19,7 @@ import {
 } from '@mui/icons-material';
 import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutlined';
 import ArrowBackIosNewOutlinedIcon from '@mui/icons-material/ArrowBackIosNewOutlined';
+import userIMG from '../../assets/user.png';
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
@@ -95,7 +96,7 @@ const Sidebar = () => {
                   alt="profile-user"
                   width="75px"
                   height="75px"
-                  src={`./assets/user.png`}
+                  src={userIMG}
                   style={{
                     cursor: 'pointer',
                     borderRadius: '50%',
